@@ -19,7 +19,7 @@ export default function Home() {
       <div className="bg-white my-7 mx-4 rounded-10px pb-6 md:pb-0 md:flex md:w-150">
         <Image
           alt="Perfume"
-          src="product-preview-card-component/images/image-product-mobile.jpg"
+          src="/product-preview-card-component/images/image-product-mobile.jpg"
           width={686}
           height={480}
           className="object-fill h-60 w-full rounded-t-10px md:hidden"
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <Image
           alt="Perfume"
-          src="product-preview-card-component/images/image-product-desktop.jpg"
+          src="/product-preview-card-component/images/image-product-desktop.jpg"
           width={300}
           height={450}
           className="object-fill rounded-lg hidden md:block"

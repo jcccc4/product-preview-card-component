@@ -35,7 +35,7 @@ export default function Home() {
         />
         <div className="mx-6 mt-6 md:mx-8 md:mt-8">
           <div
-            className={`${montserrat.variable} font-monserrat text-xs mb-5 text-aurometal`}
+            className={`${montserrat.variable} font-monserrat text-xs mb-5 text-aurometal tracking-1.25`}
           >
             PERFUME
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
           <button className="w-full text-white text-14 bg-aquamarine rounded-lg h-12 mt-5 flex items-center justify-center hover:bg-deep-aquamarine">
             <Image
               alt="Perfume"
-              src="/images/icon-cart.svg"
+              src="/product-preview-card-component/images/icon-cart.svg"
               width={14.39}
               height={16}
               className="mr-2.5"

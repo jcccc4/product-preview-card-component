@@ -44,6 +44,9 @@ module.exports = {
       },
       width:{
         150:"600px"
+      },
+      letterSpacing:{
+        1.25: '5px',
       }
     },
   },

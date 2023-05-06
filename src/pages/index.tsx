@@ -63,7 +63,7 @@ export default function Home() {
               $169.99
             </div>
           </div>
-          <button className="w-full text-white text-14 bg-aquamarine rounded-lg h-12 mt-5 flex items-center justify-center hover:bg-deep-aquamarine">
+          <button className={`${montserrat.variable} font-monserrat w-full text-white text-14 bg-aquamarine rounded-lg h-12 mt-5 flex items-center justify-center hover:bg-deep-aquamarine`}>
             <Image
               alt="Perfume"
               src="/product-preview-card-component/images/icon-cart.svg"

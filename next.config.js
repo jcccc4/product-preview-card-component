@@ -1,7 +1,8 @@
 
-module.exports = {
-  // Set the public directory
-  publicRuntimeConfig: {
-    staticFolder: '/static',
-  },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+
+}
+
+module.exports = nextConfig
